@@ -152,22 +152,22 @@ CHIP Mux {
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/Or.hdl
+// File name: projects/01/DMux.hdl
 
- /**
- * Or gate:
- * out = 1 if (a == 1 or b == 1)
- *       0 otherwise
+/**
+ * Demultiplexor:
+ * {a, b} = {in, 0} if sel == 0
+ *          {0, in} if sel == 1
  */
 
-CHIP Or {
-    IN a, b;
-    OUT out;
+CHIP DMux {
+    IN in, sel;
+    OUT a, b;
 
     PARTS:
     // Put your code here:
-    Not(in=a, out=na);
-    Not(in=b, out=nb);
-    Nand(a=na, b=nb, out=out);
+    Not(in=sel, out=nsel);
+    And(a=in, b=nsel, out=a);
+    And(a=in, b=sel, out=b);
 }
 ```
