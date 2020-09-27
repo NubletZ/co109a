@@ -1,6 +1,15 @@
-第二週習題
+# 迪摩根定律
 ===
+<img src="timu1.jpg" alt="OR16 gate" title="OR16 gate" height="300" />
+
+> * From the table above, coloumn not(a) + not(b) have the same pattern of binary numbers with coloumn not(a.b). Summary not(a) + not(b) = not(a.b).
+
+<img src="timu2.jpg" alt="OR16 gate" title="OR16 gate" height="300" />
+
+> * From the table above, coloumn not(a+b) and coloumn not(a).not(b) have the same pattern of binary number. It could be concluded that not(a+b) = not(a).not(b).
+
 # 第一章習題
+===
 ## 1. NOT16
 ### 1.1. Picture
 <img src="Not16.jpg" alt="NOT16 gate" title="NOT16 gate" height="400" />
@@ -325,5 +334,3 @@ CHIP DMux8Way {
     DMux4Way(in=selEH, sel=sel[0..1], a=e, b=f, c=g, d=h);
 }
 ```
-# 迪摩根定律
-<img src="timu2.jpg" alt="OR16 gate" title="OR16 gate" height="400" />
