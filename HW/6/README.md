@@ -2,7 +2,7 @@
 ===
 ## 1. RAM8
 ### 1.1. Picture
-<img src="ram8.png" alt="RAM8" title="RAM8" height="400" />
+<img src="ram8.png" alt="RAM8" title="RAM8" height="700" />
 
 > * A sequence of 8 addressable registers
 
@@ -41,7 +41,7 @@ CHIP RAM8 {
 
 ## 2. RAM64
 ### 2.1. Picture
-<img src="ram64.png" alt="RAM64" title="RAM64" height="400" />
+<img src="ram64.png" alt="RAM64" title="RAM64" height="700" />
 
 > * A sequence of 64 addressable registers
 
@@ -80,7 +80,7 @@ CHIP RAM64 {
 
 ## 3. RAM512
 ### 3.1. Picture
-<img src="ram512.png" alt="RAM512" title="RAM512" height="400" />
+<img src="ram512.png" alt="RAM512" title="RAM512" height="700" />
 
 > * A sequence of 512 addressable registers
 
@@ -119,7 +119,7 @@ CHIP RAM512 {
 
 ## 4. RAM4K
 ### 4.1. Picture
-<img src="ram4k.png" alt="RAM4K" title="RAM4K" height="400" />
+<img src="ram4k.png" alt="RAM4K" title="RAM4K" height="700" />
 
 > * A sequence of 4096 addressable registers
 
@@ -158,7 +158,7 @@ CHIP RAM4K {
 
 ## 5. RAM16K
 ### 5.1. Picture
-<img src="ram16k.png" alt="RAM16K" title="RAM16K" height="400" />
+<img src="ram16k.png" alt="RAM16K" title="RAM16K" height="500" />
 
 > * A sequence of 16384 addressable registers
 
