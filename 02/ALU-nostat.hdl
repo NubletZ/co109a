@@ -40,5 +40,20 @@ CHIP ALU-nostat {
         out[16];
 
     PARTS:
-    //Put your code here:
+    Mux16(a=x, b=false, sel=zx, out=xZero);
+
+    Not16(in=xZero, out=notZx);
+    Mux16(a=xZero, b=notZx, sel=nx, out=MnotX);
+
+    Mux16(a=y, b=false, sel=zy, out=yZero);
+
+    Not16(in=yZero, out=notZy);
+    Mux16(a=yZero, b=notZy, sel=ny, out=MnotY);
+
+    And16(a=MnotY, b=MnotX, out=XandY);
+    Add16(a=MnotY, b=MnotX, out=XaddY);
+    Mux16(a=XandY, b=XaddY, sel=f, out=opr);
+
+    Not16(in=opr, out=nOpr);
+    Mux16(a=opr, b=nOpr, sel=no, out=out);
 }
