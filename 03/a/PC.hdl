@@ -17,9 +17,9 @@ CHIP PC {
 
     PARTS:
     // Put your code here:
-    Inc16(in=outX, out=incIn);
-    Mux16(a=outX, b=incIn, sel=inc, out=incOut);
-    Mux16(a=incOut, b=in, sel=load, out=regOut);
-    Mux16(a=regOut, b=false, sel=reset, out=finOut);
-    Register(in=finOut, load=true, out=out, out=outX);
+    Inc16(in=outX, out=incIn); // incIn = out[t] + 1 
+    Mux16(a=outX, b=incIn, sel=inc, out=incOut); // if sel inc == 1, incOut = incIn, else incOut = out[t]
+    Mux16(a=incOut, b=in, sel=load, out=regOut); // if sel load == 1, regOut = input, else regOut = incOut
+    Mux16(a=regOut, b=false, sel=reset, out=finOut); // if sel reset == 1, set output into zero, else output = regOut
+    Register(in=finOut, load=true, out=out, out=outX); // clocking function
 }
