@@ -13,4 +13,4 @@ D;JGT //if D > 0, go to line 2
 ## Picture
 <img src="add.PNG" alt="R0=R0+1" title="R0=R0+1" height="350" />
 
-> A screenshot at the-13th loop
+> A screenshot at the-12th loop
