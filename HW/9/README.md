@@ -56,12 +56,12 @@
 ```
 <img src="asmhack.png" alt="Assembly to Hack" title="Assembly to Hack" height="850" />
 
-> Translating asm program into hack, file containing binary Hack instructions
+> Translating asm program into hack, a file that contain binary Hack instructions
 
-<img src="keybnull.PNG" alt="no keyboard input" title="no keyboard input" height="400" />
+<img src="keybnull.PNG" alt="no keyboard input" title="no keyboard input" height="500" />
 
 > If no keyboard input (R24576 == 0), screen color would be white
 
-<img src="keyb1.PNG" alt="have keyboard input" title="have keyboard input" height="400" />
+<img src="keyb1.PNG" alt="have keyboard input" title="have keyboard input" height="500" />
 
 >If there is keyboard input (R24576 != 0), change screen color into black
