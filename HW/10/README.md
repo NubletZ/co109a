@@ -90,3 +90,7 @@
 <img src="multAsm.png" alt="Assembly to Hack" title="Assembly to Hack" width="500" />
 
 > Translating asm program into hack, using Assembler.bat
+
+<img src="output.PNG" alt="output result" title="output result" width="500" />
+
+> The output result
