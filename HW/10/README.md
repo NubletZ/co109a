@@ -91,6 +91,6 @@
 
 > Translating asm program into hack, using Assembler.bat
 
-<img src="output.PNG" alt="output result" title="output result" width="500" />
+<img src="output.PNG" alt="output result" title="output result" width="800" />
 
 > The output result
