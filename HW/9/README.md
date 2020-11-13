@@ -15,45 +15,38 @@
 // "white" in every pixel;
 // the screen should remain fully clear as long as no key is pressed.
 
+//NUBLETZ NOTE : in this program, the black screen loop will change the screen start from the top of the screen
+//				 while white screen loop will start from the bottom of the screen.
+
 // Put your code here.
-	@8192 //total repeat for changing the screen (let's call it as (n))
+	@8192 //total repeat for changing the screen (n)
 	D=A
 	@0
-	M=D //put 8192 in R0
-	@16384 //the first 16 bits shown in screen
-	D=A
-	@1
-	M=D //put 16384 in R1
-	@24576 //place for keyboard input
+	M=D //put n in RAM[0]
+	@24576
 	D=M
-	@14 //pointing line 14
-	D;JGT //go to line 14 (change screen to black) if keyboard input != 0
-	@26 //pointing line 26
-	D;JEQ //go to line 26 (change screen to white) if keyboard input == 0 (no input)
-	@1 //start the BLACK screen program (line 14)
-	A=M //go to register M (arr screen)
-	M=-1 //change the value to -1 (change the screen to black)
-	@1 //go to R1
-	M=M+1 //add R1 value by 1
-	@0 //goto R0
-	M=M-1 //decrease R0 (n) value by 1
-	D=M // D = n
-	@14
-	D;JGT //if n > 0, go to line 14 (continue black screen)
+	@18
+	D;JNE //if detect keyboard input, jump to line * 18
+	@0 //else, start loop for white screen
+	D=M //current n
+	M=M-1 //next n value = current n - 1
 	@0
-	D;JLE //else go to line 0 END OF BLACK SCREEN PROGRAM LOOP
-	@1 //start the WHITE screen program (line 26)
-	A=M
-	M=0 //set value to 0 (change the screen to white)
-	@1
-	M=M+1
-	@0
+	D;JEQ //if n equal to zero, break the loop
+	@16383
+	A=D+A // go to RAM[16383 + n]
+	M=0 //set RAM[16383 + n] value into 0 (white screen)
+	@8
+	0;JMP //repeat the loop
+	@0 //(line * 18) start loop for black screen
+	D=M
 	M=M-1
-	D=M
-	@26
-	D;JGT //if n > 0, go to line 14 (continue white screen)
 	@0
-	D;JLE //else go to line 0 END OF WHITE SCREEN PROGRAM LOOP
+	D;JEQ
+	@24576
+	A=A-D // go to RAM[24576 - n]
+	M=-1 //set RAM[24576 - n] value into -1 (black screen)
+	@18
+	0;JMP //repeat the loop
 ```
 ## Picture
 <img src="asmhack.png" alt="Assembly to Hack" title="Assembly to Hack" height="850" />
