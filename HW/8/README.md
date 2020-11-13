@@ -10,11 +10,12 @@
 // Multiplies R0 and R1 and stores the result in R2.
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 
-// NUBLETZ NOTES : Lets say RAM[0] * RAM[1] = RAM[2] as x*y = z. 
-                   this program would do a loop for y-1 times.
-                   For example if x = 5 and y = 3 then we just need to add x with 5 for 2 times.
-                   The first value of x would first stored in RAM[2].
-                   during the loop, x value would be add by the value in RAM[2].
+// NUBLETZ NOTES : Lets say RAM[0] * RAM[1] = RAM[2] as R0*R1 = R2. 
+                   To multiplies R0 and R1, this program would do a loop for R1-1 times.
+                   For example if R0 = 5 and R1 = 3 then we just need to add R0 with 5 for 2 times.
+                   The first value of R0 would first stored in R2.
+                   during the loop, R0 value would be add by the value in R2.
+				   After the loop has finished, the result would replace the value in R2.
                    E.x.
                        RAM[0] = 3
                        RAM[1] = 2
@@ -41,7 +42,7 @@
                        RAM[2] = 3
 
                        5. Since the value of RAM[1] equal to zero, so the loop is over.
-                       The program would store value in RAM[0] into RAM[2] as a final result.
+                       The program would store value in RAM[0] into RAM[2] as the final result.
                        RAM[0] = 6
                        RAM[1] = 0
                        RAM[2] = 6
