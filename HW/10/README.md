@@ -1,3 +1,10 @@
+第 11 週習題 -- 第五章第 1 題 Memory.hdl
+===
+### 1. Picture
+<img src="memory.jpg" alt="memory" title="memory" height="400" />
+
+### 2. Code
+```
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -52,3 +59,4 @@ CHIP Memory {
     // ^                                                                    ^
     // address[14] == 1                                                 address[14] == 0
 }
+```
