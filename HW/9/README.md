@@ -55,6 +55,7 @@
 
 <img src="keybnull.PNG" alt="no keyboard input" title="no keyboard input" height="500" />
 
+> Run the hack program in CPUEmulator.bat tool
 > If no keyboard input (R24576 == 0), screen color would be white
 
 <img src="keyb1.PNG" alt="have keyboard input" title="have keyboard input" height="500" />
