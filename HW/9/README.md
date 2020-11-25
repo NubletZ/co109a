@@ -51,7 +51,7 @@
 ## Picture
 <img src="asmhack.png" alt="Assembly to Hack" title="Assembly to Hack" height="850" />
 
-> Translating asm program into hack, a file that contain binary Hack instructions
+> Translating asm program into hack, a file that contain binary Hack instructions using Assembler.bat tool
 
 <img src="keybnull.PNG" alt="no keyboard input" title="no keyboard input" height="500" />
 
