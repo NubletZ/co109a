@@ -1,3 +1,19 @@
+第 13 週習題 -- 第五章完成 Computer.hdl
+===
+
+> This file has been tested using :
+> * ComputerAdd.tst
+> * ComputerAdd-external.tst
+> * ComputerMax.tst
+> * ComputerMax-external.tst
+> * ComputerRect.tst
+> * ComputerRect-external.tst
+
+### 1. Picture
+<img src="Computer.jpg" alt="Computer" title="Computer" height="400" />
+
+### 2. Code
+```
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -24,3 +40,4 @@ CHIP Computer {
     CPU(inM=memOut, instruction=ROMout, reset=reset, outM=outM, writeM=M, addressM=A, pc=pc);
     Memory(in=outM, load=M, address=A, out=memOut);
 }
+```
