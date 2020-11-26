@@ -1,7 +1,7 @@
 第 12 週習題 -- 第五章第 2 題 CPU.hdl
 ===
 ### 1. Picture
-<img src="CPU.png" alt="CPU" title="CPU" height="500" />
+<img src="CPU.png" alt="CPU" title="CPU" height="600" />
 
 ### 2. Code
 ```
