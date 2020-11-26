@@ -10,7 +10,7 @@
 > * ComputerRect-external.tst
 
 ### 1. Picture
-<img src="Computer.jpg" alt="Computer" title="Computer" height="400" />
+<img src="Computer.jpg" alt="Computer" title="Computer" height="500" />
 
 ### 2. Code
 ```
