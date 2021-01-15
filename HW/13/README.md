@@ -1,7 +1,7 @@
 ## 第六章習題 組譯器沒有符號版
 
-> This part was solved by using the code from https://gitlab.com/ccc109/co/-/tree/master/06
-> By reading the code and try to run it makes me more understand about the process how to convert from machine language to asm language and vice versa
+> This part was solved by using the code from https://gitlab.com/ccc109/co/-/tree/master/06.
+> By reading the code and try to run it makes me more understand about the process on converting from machine language into asm language and vice versa
 
 ### 1. MaxL.asm
 <pre>
