@@ -913,8 +913,8 @@ PC=0063 I=6973 A=6973 D=0000 m[A]=0000=0000
 ...
 </p>
 </details>
-command : ../dasm PongL.asm
-<details><summary>CLICK ME</summary>
+command : ../vm PongL.asm
+<details><summary>show result</summary>
 <p>
 ============= PASS1 ================
 00:@256
