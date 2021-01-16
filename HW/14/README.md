@@ -289,6 +289,8 @@ exit program !
 </pre>
 <img src="../../06/add.png" alt="add" title="add" height="400" />
 
+> Adds up the constants 2 and 3 and puts the result in R0.
+
 ### 2. Max.asm
 <pre>
 command : ../asm Max
