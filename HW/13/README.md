@@ -366,6 +366,8 @@ exit program !
 </p>
 </details>
 </pre>
+<img src="https://github.com/NubletZ/co109a/tree/master/06/max.png" alt="max" title="max" height="400" />
+
 ### 2. RectL.asm
 <pre>
 command : ../asm RectL
@@ -971,6 +973,7 @@ exit program !
 </p>
 </details>
 </pre>
+<img src="https://github.com/NubletZ/co109a/tree/master/06/rect.png" alt="rect" title="rect" height="400" />
 
 ### 3. PongL.asm
 <pre>
@@ -1448,3 +1451,4 @@ PC=0063 I=6973 A=6973 D=0000 m[A]=0000=0000
 </p>
 </details>
 </pre>
+<img src="https://github.com/NubletZ/co109a/tree/master/06/pong.png" alt="pong" title="pong" height="400" />
