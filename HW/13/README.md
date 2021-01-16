@@ -5,7 +5,7 @@
 
 ### 1. MaxL.asm
 <pre>
-command : .../asm MaxL
+command : ../asm MaxL
 <details><summary>show result</summary>
 <p>
 ============= PASS1 ================
@@ -44,7 +44,7 @@ command : .../asm MaxL
 0F: 0;JMP                1110101010000111 ea87
 </p>
 </details>
-command : .../dasm MaxL.asm
+command : ../dasm MaxL.asm
 <details><summary>show result</summary>
 <p>
 @12079
@@ -204,7 +204,7 @@ command : .../dasm MaxL.asm
 @3408
 </p>
 </details>
-command : .../vm MaxL
+command : ../vm MaxL
 <details><summary>show result</summary>
 <p>
 PC=0000 I=2F2F A=2F2F D=0000 m[A]=0000=0000
