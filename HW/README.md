@@ -13,7 +13,7 @@ Chapter | link
 第 11 週習題 -- 第五章第 1 題 Memory.hdl | https://github.com/NubletZ/co109a/tree/master/HW/10
 第 12 週習題 -- 第五章第 2 題 CPU.hdl | https://github.com/NubletZ/co109a/tree/master/HW/11
 第 13 週習題 -- 第五章完成 Computer.hdl | https://github.com/NubletZ/co109a/tree/master/HW/12
-第 14 週習題 -- 第六章習題 組譯器沒有符號版 | https://github.com/NubletZ/co109a/tree/master/HW/13
-第 15 週習題 -- 第六章習題 組譯器有符號版 | https://github.com/NubletZ/co109a/tree/master/HW/14
+第 14 週習題 -- 第六章習題 組譯器沒有符號版 | [homework result link](https://github.com/NubletZ/co109a/tree/master/HW/13) / [project code link](https://github.com/NubletZ/co109a/tree/master/06)
+第 15 週習題 -- 第六章習題 組譯器有符號版 | [homework result link](https://github.com/NubletZ/co109a/tree/master/HW/14) / [project code link](https://github.com/NubletZ/co109a/tree/master/06)
 第七週補充習題 -- 將 HackCPU 組合語言翻成機器碼 | https://github.com/NubletZ/co109a/tree/master/HW/week7
 第八週補充習題 -- 撰寫組合語言 | https://github.com/NubletZ/co109a/tree/master/HW/week8
