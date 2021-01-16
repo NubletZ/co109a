@@ -1,5 +1,7 @@
 ## 第六章習題 組譯器有符號版
 
+> Part 6 assembler with symbol handling capabilities. This part was solved by using the code from https://gitlab.com/ccc109/co/-/tree/master/06.
+
 ### 1. Add.asm
 <pre>
 command : ../asm Add
