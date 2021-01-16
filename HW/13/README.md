@@ -1,7 +1,12 @@
 ## 第六章習題 組譯器沒有符號版
 
 > This part was solved by using the code from https://gitlab.com/ccc109/co/-/tree/master/06.
-> By reading the code and try to run it makes me more understand about the process on converting from machine language into asm language and vice versa
+> By reading the code and try to run it makes me more understand about the process on converting from machine language into asm language and vice versa.
+> I also learn some C language that I haven't learn before such as :
+> * sscanf ( const char * s, const char * format, ...);
+>  => will reads data from s and stores them according to parameter format into the locations given by the additional arguments
+> * sprintf ( char * str, const char * format, ... );
+>  => this will composes a string with the same text that would be printed if format was used on printf, but instead of being printed, the content is stored as a C string in the buffer pointed by str.
 
 ### 1. MaxL.asm
 <pre>
