@@ -368,7 +368,8 @@ exit program !
 </pre>
 <img src="../../06/max.png" alt="max" title="max" height="400" />
 
-> do max(R0,R1) operation and put the result in R2
+> Test the hack file.
+> Do max(R0,R1) operation and put the result in R2
 
 ### 2. RectL.asm
 <pre>
@@ -813,6 +814,7 @@ exit program !
 </pre>
 <img src="../../06/rect.png" alt="rect" title="rect" height="400" />
 
+> Test the hack file.
 > commiting to print 16px x 100px rectangle on screen
 
 ### 3. PongL.asm
@@ -1293,4 +1295,5 @@ PC=0063 I=6973 A=6973 D=0000 m[A]=0000=0000
 </pre>
 <img src="../../06/pong.png" alt="pong" title="pong" height="400" />
 
+> Test the hack file.
 > start pong game
